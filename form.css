@@ -1,0 +1,27 @@
+.head{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    min-height: 42px;
+    max-width: 100%;
+    min-width: 30rem;
+    text-align: center;
+    position: static;
+}
+
+.head_word{
+    font-weight: bold;
+    color: lightslategrey;
+    flex: 1;
+    float: left;
+    /* text-align: center;*/
+    align-items: center; 
+    justify-content: center;
+}
+
+.head>div{
+    display: flex;
+    /* justify-content: space-between; */
+ 
+}
